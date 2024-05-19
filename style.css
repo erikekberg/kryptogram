@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    background-color: #AAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypto-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    padding: 5px;
+    font-size: 7vh;
+}
