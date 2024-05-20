@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 header {
@@ -17,9 +18,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .letter {
-    padding: 5px;
+    padding: 10px;
     font-size: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    width: 3vw;
 }
