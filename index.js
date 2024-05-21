@@ -1,4 +1,4 @@
-const sentence = "Tandläkaren pekade på Lotta och sa: – Den här lilla fröken kunde jag inte göra något åt, för hon ville inte öppna munnen. – Den ungen får man skämmas för överallt, sa Jonas när vi gick hem. – Jag kände inte honom, sa Lotta. Jag kan inte gapa åt folk som jag inte känner"
+const sentence = "This is a cryptogram. Här kan man lägga till vilket citat som helst"
 const words = sentence.split(" ");
 const container = document.getElementById("container");
 let selected = [];
